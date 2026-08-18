@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "your friendly neighbourhood editor",
   description:
-    "Harshita is a Delhi-based video editor, cinematographer and creative head. Specializing in YouTube long-form edits, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads. Available for freelance & full-time video editing work in Delhi NCR.",
+    "Harshita is a Delhi-based video editor, cinematographer and creative head. Specializing in YouTube long-form edits, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads. Available for freelance & full-time video editing work.",
   keywords:
     "best video editor in delhi, video editor delhi, video editing services delhi, freelance video editor delhi, video editor near me, creative head delhi, cinematographer delhi, youtube video editor delhi, reels editor delhi, podcast video editor, professional video editing",
   authors: [{ name: "Harshita" }],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harshita | Best Video Editor in Delhi",
+    title: "Harshita | Friendly neighbourhood editor",
     description:
       "Delhi-based video editor, cinematographer & creative head — YouTube, Instagram Reels, podcasts, and 3D brand ads.",
     images: [`${siteUrl}/stack/c1.jpg`],
