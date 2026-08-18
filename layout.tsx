@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Harshita — Video Editor",
-    title: "Harshita | Best Video Editor in Delhi",
+    title: "Harshita | Friendly Neighbourhood Editor",
     description:
       "Delhi-based video editor, cinematographer & creative head. YouTube long-form, Instagram Reels, podcasts, and 3D brand ads. Available for freelance & full-time work.",
     images: [`${siteUrl}/stack/c1.jpg`],
