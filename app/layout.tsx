@@ -18,29 +18,29 @@ const siteUrl = "https://hashcreates.site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Harshita | Best Video Editor in Delhi — Video Editing, Cinematography & Creative Direction",
+  title: "Harshita",
   description:
-    "Harshita is a Delhi-based video editor, cinematographer and creative head. Specializing in YouTube long-form edits, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads. Available for freelance & full-time video editing work in Delhi NCR.",
+    "Harshita is a video editor, cinematographer and creative head, specializing in YouTube long-form edits, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads.",
   keywords:
-    "best video editor in delhi, video editor delhi, video editing services delhi, freelance video editor delhi, video editor near me, creative head delhi, cinematographer delhi, youtube video editor delhi, reels editor delhi, podcast video editor, professional video editing",
+    "video editor, video editing services, cinematographer, creative head, youtube video editor, reels editor, podcast video editor, professional video editing",
   authors: [{ name: "Harshita" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   alternates: { canonical: siteUrl },
   openGraph: {
     type: "website",
-    siteName: "Harshita — Video Editor",
-    title: "Harshita | Best Video Editor in Delhi",
+    siteName: "Harshita",
+    title: "Harshita",
     description:
-      "Delhi-based video editor, cinematographer & creative head. YouTube long-form, Instagram Reels, podcasts, and 3D brand ads. Available for freelance & full-time work.",
+      "Video editor, cinematographer & creative head. YouTube long-form, Instagram Reels, podcasts, and 3D brand ads.",
     images: [`${siteUrl}/stack/c1.jpg`],
     url: siteUrl,
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harshita | Best Video Editor in Delhi",
+    title: "Harshita",
     description:
-      "Delhi-based video editor, cinematographer & creative head — YouTube, Instagram Reels, podcasts, and 3D brand ads.",
+      "Video editor, cinematographer & creative head — YouTube, Instagram Reels, podcasts, and 3D brand ads.",
     images: [`${siteUrl}/stack/c1.jpg`],
   },
   other: {
@@ -95,7 +95,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       url: `${siteUrl}/`,
-      name: "Harshita | Best Video Editor in Delhi",
+      name: "Harshita",
       publisher: { "@id": `${siteUrl}/#person` },
     },
   ],
