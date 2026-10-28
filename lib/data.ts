@@ -57,6 +57,15 @@ export const boardSections: BoardSection[] = [
       { id: "CJPTkrzcNbs", url: yt("CJPTkrzcNbs"), title: "Blacabia T-Shirt Drop", meta: "Hashawps · Brand Ad", tag: "Brand Ad", platform: "YouTube", orientation: "portrait" },
     ],
   },
+  {
+    key: "motion",
+    timecode: "00:04",
+    label: "Motion Graphics",
+    sub: "Design in motion",
+    videos: [
+      { url: "https://www.instagram.com/p/Dey9R_hhE5t/", title: "Motion Graphics", meta: "Instagram · Featured work", tag: "Motion Graphics", platform: "Instagram", orientation: "portrait" },
+    ],
+  },
 ];
 
 export const roles = ["Video Editor", "Cinematographer", "Creative Head", "Storyteller"];

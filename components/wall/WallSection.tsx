@@ -42,13 +42,13 @@ export default function WallSection() {
       <Reveal>
         <div className="section-head">
           <div>
-            <span className="timecode">00:01 – 00:03 · The Edit Wall</span>
+            <span className="timecode">00:01 – 00:04 · The Edit Wall</span>
             <h2 className="section-title">
               Every cut, <span className="accent">pinned up.</span>
             </h2>
           </div>
           <p className="section-sub">
-            Long form, reels and 3D brand ads — pinned to one wall. Click a card to zoom in.
+            Long form, reels, 3D brand ads and motion graphics — pinned to one wall. Click a card to zoom in.
           </p>
         </div>
       </Reveal>

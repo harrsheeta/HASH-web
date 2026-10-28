@@ -28,6 +28,7 @@ export const PIN_COLORS: Record<string, string> = {
   long: "#dfa155",
   short: "#3fbe8f",
   "3d": "#8c96c6",
+  motion: "#e77e4f",
 };
 
 const GAP = 0.5;
@@ -35,8 +36,8 @@ const ROW_GAP = 2.1; // vertical space between board rows (room for tape labels)
 const COL_GAP = 2.4; // horizontal space between clusters sharing a row
 
 // The wall is a collage: Long Form spans the top row,
-// Reels and 3D sit side by side underneath.
-const BOARD_ROWS: string[][] = [["long"], ["short", "3d"]];
+// Reels, 3D and Motion Graphics sit side by side underneath.
+const BOARD_ROWS: string[][] = [["long"], ["short", "3d", "motion"]];
 
 // Deterministic tilt so SSR/CSR and re-renders agree.
 const tilt = (i: number) => (((i * 47) % 21) / 21 - 0.5) * 0.11;

@@ -121,7 +121,7 @@ export function drawPolaroid(canvas: HTMLCanvasElement, video: Video, img: HTMLI
     ctx.fillStyle = "rgba(247,243,232,0.9)";
     ctx.font = `500 22px ${mono()}`;
     ctx.textAlign = "center";
-    ctx.fillText(video.platform === "Instagram" ? "INSTAGRAM REEL" : "YOUTUBE", cxp, cyp + 84);
+    ctx.fillText(video.platform === "Instagram" ? "INSTAGRAM" : "YOUTUBE", cxp, cyp + 84);
     ctx.textAlign = "left";
   }
   ctx.restore();
