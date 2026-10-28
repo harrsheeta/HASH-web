@@ -1,3 +1,5 @@
+import type { CSSProperties } from "react";
+import ServiceVideo from "@/components/ServiceVideo";
 import Reveal from "@/components/Reveal";
 import { contact } from "@/lib/data";
 
@@ -5,8 +7,8 @@ const services = [
   {
     title: "AI Visuals",
     description: "From a rough idea to a world worth watching. Cinematic AI visuals shaped around your brand, your story, and the feeling you want to leave behind.",
-    video: "ai-visuals-web.mp4",
-    poster: "ai-visuals-poster.jpg",
+    video: "ai-visuals-cafe.mp4",
+    poster: "ai-visuals-cafe-poster.jpg",
   },
   {
     title: "Brand Intros",
@@ -44,8 +46,7 @@ export default function Services() {
       </Reveal>
       <div className="service-list">
         {services.map((service, index) => (
-          <Reveal key={service.title}>
-            <article className="service-card" aria-labelledby={`service-${index}`}>
+          <article key={service.title} className="service-card" style={{ "--card-index": index } as CSSProperties} aria-labelledby={`service-${index}`}>
               <header className="service-card-header">
                 <span className="service-number">{String(index + 1).padStart(2, "0")}</span>
                 <span>{service.title}</span>
@@ -53,10 +54,7 @@ export default function Services() {
               </header>
               <div className="service-card-body">
                 <div className="service-media">
-                  <video controls playsInline preload="none" poster={`/services/${service.poster}`} aria-label={`${service.title} example`}>
-                    <source src={`/services/${service.video}`} type="video/mp4" />
-                    <a href={`/services/${service.video}`}>Watch the {service.title} example</a>
-                  </video>
+                  <ServiceVideo video={service.video} poster={service.poster} title={service.title} />
                 </div>
                 <div className="service-copy">
                   <h3 id={`service-${index}`}>{service.title}</h3>
@@ -67,7 +65,6 @@ export default function Services() {
                 </div>
               </div>
             </article>
-          </Reveal>
         ))}
       </div>
     </section>

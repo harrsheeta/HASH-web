@@ -5,7 +5,7 @@ import { LAND, PORT } from "./layout";
 const PAPER = "#f7f3e8";
 const INK = "#141b3f";
 const MUTED = "#59618d";
-const TAG = "#b87a2e";
+const TAG = "#626262";
 
 // next/font registers hashed family names — resolve them from the CSS vars
 function fam(cssVar: string, fallback: string): string {

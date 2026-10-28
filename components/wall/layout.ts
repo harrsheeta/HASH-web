@@ -25,10 +25,10 @@ export const LAND = { cw: 640, ch: 504, w: 2.4 };
 export const PORT = { cw: 360, ch: 746, w: 1.4 };
 
 export const PIN_COLORS: Record<string, string> = {
-  long: "#dfa155",
-  short: "#3fbe8f",
-  "3d": "#8c96c6",
-  motion: "#e77e4f",
+  long: "#b8b8b8",
+  short: "#a3a3a3",
+  "3d": "#c8c8c8",
+  motion: "#909090",
 };
 
 const GAP = 0.5;
@@ -97,7 +97,7 @@ export function buildWallLayout(): WallLayout {
             rot: tilt(globalIdx),
             w: shape.cardW,
             h: shape.cardH,
-            pinColor: PIN_COLORS[key] ?? "#dfa155",
+            pinColor: PIN_COLORS[key] ?? "#b8b8b8",
           });
           vi++;
           globalIdx++;
