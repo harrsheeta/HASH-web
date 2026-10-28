@@ -187,13 +187,14 @@ function PinnedCard({
     paint(null);
     setTexture(tex);
 
-    if (spec.video.id) {
+    const thumbnail = spec.video.thumbnail ?? (spec.video.id ? `/api/thumb/${spec.video.id}` : null);
+    if (thumbnail) {
       const img = new Image();
       img.onload = () => {
         loaded = img;
         paint(img);
       };
-      img.src = `/api/thumb/${spec.video.id}`;
+      img.src = thumbnail;
     }
 
     // repaint once webfonts arrive so captions use the real faces
