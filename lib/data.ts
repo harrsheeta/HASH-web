@@ -1,5 +1,6 @@
 export type Video = {
   id?: string; // YouTube id
+  thumbnail?: string; // Locally hosted cover image
   url: string;
   title: string;
   meta: string;
@@ -26,7 +27,7 @@ export const boardSections: BoardSection[] = [
     sub: "Podcasts, talking heads, vlogs & game shows",
     videos: [
       { id: "bVti-ykKf8o", url: yt("bVti-ykKf8o"), title: "Week in Life | Running a Multi-Million Dollar Company", meta: "Ayush Wadhwa", tag: "Vlog", platform: "YouTube", orientation: "landscape" },
-      { id: "p3BFKSicnCo", url: yt("p3BFKSicnCo"), title: "Third Wave Coffee's ₹1300 Crore Gamble", meta: "Anurag Bansal", tag: "Talking Head", platform: "YouTube", orientation: "landscape" },
+      { id: "wBMUyKGgKO8", url: yt("wBMUyKGgKO8"), title: "How Milky Mist Built a ₹11,000 Crore Dairy Business Without Selling Milk", meta: "Anurag Bansal", tag: "Talking Head", platform: "YouTube", orientation: "landscape" },
       { id: "WyebWTr93kA", url: yt("WyebWTr93kA"), title: "How Dhurandhar Exposed PVR's Biggest Problem", meta: "Anurag Bansal", tag: "Case Study", platform: "YouTube", orientation: "landscape" },
       { id: "2g0caV093qk", url: yt("2g0caV093qk"), title: "Samay Raina & Balraj Test Their Knowledge | What The Buck Ep. 1", meta: "Anshuman Sharma", tag: "Game Show", platform: "YouTube", orientation: "landscape" },
       { id: "TXEVUiclcMI", url: yt("TXEVUiclcMI"), title: "How He Built a ₹7Cr+ Corpus At The Age Of 35?", meta: "PowerUp Money", tag: "Podcast", platform: "YouTube", orientation: "landscape" },
@@ -40,10 +41,10 @@ export const boardSections: BoardSection[] = [
     label: "Short Form Reels",
     sub: "High-retention vertical videos",
     videos: [
-      { url: "https://www.instagram.com/reel/DLpRL5FxgHe/", title: "Talking Head — Instagram Reel", meta: "Instagram Reel", tag: "Talking Head", platform: "Instagram", orientation: "portrait" },
+      { url: "https://www.instagram.com/reel/DLpRL5FxgHe/", thumbnail: "/thumbnails/DLpRL5FxgHe.jpg", title: "Talking Head — Instagram Reel", meta: "Instagram Reel", tag: "Talking Head", platform: "Instagram", orientation: "portrait" },
       { id: "0QedWHb3ZEI", url: yt("0QedWHb3ZEI"), title: "Govt Internships — Short", meta: "HashGonWeed", tag: "Talking Head", platform: "YouTube", orientation: "portrait" },
       { id: "HdvBYK65nTg", url: yt("HdvBYK65nTg"), title: "BigLeap Project", meta: "HeyGen AI", tag: "HeyGen", platform: "YouTube", orientation: "portrait" },
-      { url: "https://www.instagram.com/reel/Dbsxmi0x4cL/", title: "Talking Head — Instagram Reel", meta: "Instagram Reel", tag: "Talking Head", platform: "Instagram", orientation: "portrait" },
+      { url: "https://www.instagram.com/reel/Dbsxmi0x4cL/", thumbnail: "/thumbnails/Dbsxmi0x4cL.jpg", title: "Talking Head — Instagram Reel", meta: "Instagram Reel", tag: "Talking Head", platform: "Instagram", orientation: "portrait" },
     ],
   },
   {
@@ -63,7 +64,7 @@ export const boardSections: BoardSection[] = [
     label: "Motion Graphics",
     sub: "Design in motion",
     videos: [
-      { url: "https://www.instagram.com/p/Dey9R_hhE5t/", title: "Motion Graphics", meta: "Instagram · Featured work", tag: "Motion Graphics", platform: "Instagram", orientation: "portrait" },
+      { url: "https://www.instagram.com/p/Dey9R_hhE5t/", thumbnail: "/thumbnails/Dey9R_hhE5t.jpg", title: "Motion Graphics", meta: "Instagram · Featured work", tag: "Motion Graphics", platform: "Instagram", orientation: "portrait" },
     ],
   },
 ];
