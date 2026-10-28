@@ -20,6 +20,7 @@ export default function Nav() {
 
       <div className="nav-links">
         <a href="#work">The Wall</a>
+        <a href="#services">Services</a>
         <a href="#clients">Clients</a>
         <a href="#about">About</a>
       </div>

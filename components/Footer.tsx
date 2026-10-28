@@ -13,7 +13,7 @@ export default function Footer() {
       </Reveal>
       <Reveal delay={0.12}>
         <div className="meta">
-          Video Editor · Delhi, India
+          Video Editor · Delhi & Bangalore, India
           <br />
           <a href={`mailto:${contact.email}`}>{contact.email}</a>
           <br />
@@ -21,6 +21,10 @@ export default function Footer() {
           <br />
           <a href={contact.instagram} target="_blank" rel="noopener noreferrer">
             Instagram
+          </a>
+          <br />
+          <a href="https://www.instagram.com/hobie.labs/" target="_blank" rel="noopener noreferrer">
+            Hobie Labs ↗
           </a>
         </div>
       </Reveal>

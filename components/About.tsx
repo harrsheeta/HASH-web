@@ -16,11 +16,11 @@ export default function About() {
       </Reveal>
       <Reveal delay={0.1}>
         <p className="about-copy">
-          Hi, I&rsquo;m Harshita — a Delhi-based video editor, cinematographer and creative head with a background in
-          narrative pacing, color grading, and motion design. I work with YouTubers, founders, and brands across Delhi
-          NCR and beyond, delivering long-form YouTube edits, high-retention Instagram Reels and YouTube Shorts,
+          Hi, I&rsquo;m Harshita — a Delhi–Bangalore based video editor, cinematographer and creative head with a background in
+          narrative pacing, color grading, and motion design. I work with YouTubers, founders, and brands across Mumbai, Delhi NCR, and Bangalore (Bengaluru), offering video editing,
+          cinematography, and motion graphics services. My work includes long-form YouTube edits, high-retention Instagram Reels and YouTube Shorts,
           podcasts, talking-head videos, game shows, and 3D animated brand ads built in Blender. If you&rsquo;re
-          looking to bring a vibe to your videos, I am based off Delhi and up for freelance / full-time work. Reach out
+          looking to bring a vibe to your videos, I am available for freelance / full-time work. Reach out
           at <a href={`mailto:${contact.email}`}>{contact.email}</a> or{" "}
           <a href={`tel:${contact.phone}`}>{contact.phonePretty}</a>.
         </p>

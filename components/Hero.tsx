@@ -67,7 +67,7 @@ export default function Hero() {
 
         <motion.p className="hero-desc" variants={item}>
           Cutting frames, grading color, and building worlds — one timeline at a time. I&rsquo;m a video editor based
-          in Delhi, turning raw footage into stories that hit different — across YouTube, Instagram and brand
+          in Delhi and Bangalore, turning raw footage into stories that hit different — across YouTube, Instagram and brand
           campaigns.
         </motion.p>
 

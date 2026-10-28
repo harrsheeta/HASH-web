@@ -18,29 +18,29 @@ const siteUrl = "https://hashcreates.site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Harshita",
+  title: "Harshita | Video Editor in Delhi, Bangalore & Mumbai",
   description:
-    "Harshita is a video editor, cinematographer and creative head, specializing in YouTube long-form edits, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads.",
+    "Delhi–Bangalore based video editor serving Mumbai, Delhi and Bangalore. YouTube editing, Instagram Reels, motion graphics, cinematography and 3D brand ads.",
   keywords:
-    "video editor, video editing services, cinematographer, creative head, youtube video editor, reels editor, podcast video editor, professional video editing",
+    "video editor, video editing services, cinematographer, creative head, youtube video editor, reels editor, podcast video editor, professional video editing, video editor Delhi, video editor Bangalore, video editor Bengaluru, video editor Mumbai, motion graphics",
   authors: [{ name: "Harshita" }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   alternates: { canonical: siteUrl },
   openGraph: {
     type: "website",
     siteName: "Harshita",
-    title: "Harshita",
+    title: "Harshita | Video Editor in Delhi, Bangalore & Mumbai",
     description:
-      "Video editor, cinematographer & creative head. YouTube long-form, Instagram Reels, podcasts, and 3D brand ads.",
+      "Delhi–Bangalore based video editor and cinematographer serving Mumbai, Delhi and Bangalore. YouTube, Reels, motion graphics and 3D brand ads.",
     images: [`${siteUrl}/stack/c1.jpg`],
     url: siteUrl,
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harshita",
+    title: "Harshita | Video Editor in Delhi, Bangalore & Mumbai",
     description:
-      "Video editor, cinematographer & creative head — YouTube, Instagram Reels, podcasts, and 3D brand ads.",
+      "Video editing, cinematography and motion graphics in Mumbai, Delhi and Bangalore. Harshita — Delhi–Bangalore based creative head.",
     images: [`${siteUrl}/stack/c1.jpg`],
   },
   other: {
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#05071c" },
+    { media: "(prefers-color-scheme: dark)", color: "#090909" },
     { media: "(prefers-color-scheme: light)", color: "#f4f3fc" },
   ],
 };
@@ -67,7 +67,7 @@ const jsonLd = {
       name: "Harshita",
       jobTitle: ["Video Editor", "Cinematographer", "Creative Head", "Storyteller"],
       description:
-        "Delhi-based video editor, cinematographer and creative head specializing in YouTube long-form content, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads.",
+        "Delhi–Bangalore based video editor, cinematographer and creative head serving Mumbai, Delhi NCR and Bangalore (Bengaluru), specializing in YouTube long-form content, Instagram Reels, podcasts, talking-head videos, game shows, and 3D brand ads.",
       url: `${siteUrl}/`,
       email: "mailto:harrsheeta@gmail.com",
       telephone: "+91-9958710599",
@@ -81,9 +81,13 @@ const jsonLd = {
       name: "Harshita — Video Editing Services",
       image: `${siteUrl}/stack/c1.jpg`,
       description:
-        "Professional video editing services in Delhi — YouTube long-form edits, Instagram Reels, podcasts, game shows, talking-head videos, and 3D brand ads/animation.",
+        "Professional video editing, cinematography and motion graphics services in Mumbai, Delhi NCR and Bangalore (Bengaluru) — YouTube long-form edits, Instagram Reels, podcasts, game shows, talking-head videos, and 3D brand ads/animation.",
       priceRange: "$$",
-      areaServed: { "@type": "City", name: "Delhi" },
+      areaServed: [
+        { "@type": "City", name: "Mumbai" },
+        { "@type": "City", name: "Delhi" },
+        { "@type": "City", name: "Bengaluru", alternateName: "Bangalore" },
+      ],
       address: { "@type": "PostalAddress", addressLocality: "Delhi", addressRegion: "Delhi", addressCountry: "IN" },
       geo: { "@type": "GeoCoordinates", latitude: 28.6139, longitude: 77.209 },
       telephone: "+91-9958710599",
