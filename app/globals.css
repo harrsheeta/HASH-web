@@ -1077,9 +1077,13 @@ a.client-chip:hover {
   .service-list { gap: 24px; }
 }
 
-/* Mobile stack: every covered card keeps its numbered header visible. */
-@media (max-width: 700px) and (min-height: 660px) and (prefers-reduced-motion: no-preference) {
-  .service-list { display: block; padding-bottom: 24px; }
+/* Sticky cards work at every viewport size; each preceding header stays visible. */
+.service-list { --service-header-height: 52px; display: block; padding-bottom: min(30vh, 240px); }
+.service-card { position: sticky; top: calc(var(--nav-h) + 12px + var(--card-index) * var(--service-header-height)); z-index: calc(10 + var(--card-index)); margin-bottom: 32px; box-shadow: 0 -12px 30px rgba(0, 0, 0, 0.35); }
+.service-card-header { height: var(--service-header-height); padding-top: 8px; padding-bottom: 8px; }
+.service-card-body { max-height: calc(100svh - var(--nav-h) - 28px - (var(--card-index) + 1) * var(--service-header-height)); overflow-y: auto; }
+@media (max-width: 700px) {
+  .service-list { --service-header-height: 44px; }
   .service-card { position: sticky; top: calc(var(--nav-h) + 12px + var(--card-index) * 44px); z-index: calc(10 + var(--card-index)); margin-bottom: 32px; box-shadow: 0 -12px 30px rgba(0, 0, 0, 0.35); }
   .service-card-header { height: 44px; padding: 8px 16px; font-size: 0.76rem; }
   .service-card-body { grid-template-columns: 1fr; }

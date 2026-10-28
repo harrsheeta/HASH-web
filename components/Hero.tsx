@@ -97,7 +97,7 @@ export default function Hero() {
             whileHover={{ rotate: -12, x: -60 }}
             transition={{ type: "spring", stiffness: 120, damping: 16 }}
           >
-            <img src="/stack/c2.jpg" alt="Behind the scenes — camera work" />
+            <img src="/stack/c1.jpg" alt="Video editing at a café" />
           </motion.div>
           <motion.div
             className="stack-card c1"
@@ -110,7 +110,7 @@ export default function Hero() {
             whileHover={{ rotate: 1, scale: 1.03 }}
             transition={{ type: "spring", stiffness: 120, damping: 16 }}
           >
-            <img src="/stack/c1.jpg" alt="Harshita on set" />
+            <img src="/stack/c2.jpg" alt="Behind the scenes — camera work" />
           </motion.div>
         </motion.div>
       </motion.div>
