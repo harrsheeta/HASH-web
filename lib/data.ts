@@ -26,6 +26,7 @@ export const boardSections: BoardSection[] = [
     label: "Long Form",
     sub: "Podcasts, talking heads, vlogs & game shows",
     videos: [
+      { id: "zRBjDdCRpZs", url: yt("zRBjDdCRpZs"), title: "Jet Airways’ ₹1,450 Crore Blunder | Why Was It So Expensive to Run?", meta: "Anurag Bansal", tag: "Case Study", platform: "YouTube", orientation: "landscape" },
       { id: "bVti-ykKf8o", url: yt("bVti-ykKf8o"), title: "Week in Life | Running a Multi-Million Dollar Company", meta: "Ayush Wadhwa", tag: "Vlog", platform: "YouTube", orientation: "landscape" },
       { id: "wBMUyKGgKO8", url: yt("wBMUyKGgKO8"), title: "How Milky Mist Built a ₹11,000 Crore Dairy Business Without Selling Milk", meta: "Anurag Bansal", tag: "Talking Head", platform: "YouTube", orientation: "landscape" },
       { id: "WyebWTr93kA", url: yt("WyebWTr93kA"), title: "How Dhurandhar Exposed PVR's Biggest Problem", meta: "Anurag Bansal", tag: "Case Study", platform: "YouTube", orientation: "landscape" },
